@@ -1,19 +1,19 @@
 #include<iostream>
 using namespace std;
-void swap(int &,int &);
-int main()
+int fun()
 {
-    int a=10, b=20;
-    cout<<"220130318102"<<endl;
-  	cout<<"My Name Is Krinshsmith Kava"<<endl;
-    cout<<"Before swapping the value is "<<a<<" & "<<b<<endl;
-    swap(a,b);
-    cout<<"After swapping the value is "<<a<<" & "<<b<<endl;
-    return 0;
+	int a;
+	static int b;
+	cout<<"220130318102"<<endl;
+	cout<<"My Name Is Krinshsmith Kava"<<endl;
+	cout<<"Value of a is non static::"<<a++<<endl;
+	cout<<"value of b is static:: "<<b++<<endl;
 }
-void swap(int &a, int &b)
-{
-    int temp=a;
-        a=b;
-        b=temp;
+int main()
+{	
+	for(int i=0;i<5;i++)
+	{
+		fun();	
+	}
+	return 0;	
 }
