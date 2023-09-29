@@ -1,0 +1,14 @@
+# Practical_list-2
+#include<iostream>
+using namespace std;
+int x=100;                                                        
+int main()
+{
+	int x=200;
+  	cout<<"220130318102"<<endl;
+  	cout<<"My Name Is Krinshsmith Kava";
+	cout<<"value of (local variable) x is ::"<<x<<endl;
+	cout<<"value of (global variable) x is ::"<<::x<<endl;
+	return 0;
+	
+}
